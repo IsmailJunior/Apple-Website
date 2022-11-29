@@ -1,0 +1,22 @@
+.container {
+	width: 100%;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur(10px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: small;
+	gap: 40px;
+	position: sticky;
+	top: 0;
+}
+
+a {
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+a:hover {
+  	color: azure;
+}
