@@ -1,8 +1,10 @@
-
+import {Store} from '../index'
 const StorePage = () =>
 {
 	return (
-		<h1>Store Page</h1>
+		<div>
+			<Store />
+		</div>
 	)
 };
 
