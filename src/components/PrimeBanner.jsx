@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import classes from './View.module.css';
-const View = ({header, title, background, color, url, width}) =>
+import classes from './Banner.module.css';
+const PrimeBanner = ({header, title, background, color, url, width}) =>
 {
 	return (
 		<div className={ classes.container } style={ { background: `${ background }` } }>
@@ -21,4 +21,4 @@ const View = ({header, title, background, color, url, width}) =>
 	)
 };
 
-export default View;
+export default PrimeBanner;
