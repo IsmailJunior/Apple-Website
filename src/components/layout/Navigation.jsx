@@ -6,7 +6,7 @@ const Navigation = () =>
 	return (
 		<ul className={classes.container}>
 			<NavLink link='/' title={ <LogoApple color='#d5d5d5'/>} />
-			<NavLink link='/store' title='Store'/>
+			<NavLink title='Store'/>
 			<NavLink title='Mac'/>
 			<NavLink title='iPad'/>
 			<NavLink title='iPhone'/>

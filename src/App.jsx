@@ -1,5 +1,5 @@
 import { Switch, Route } from 'react-router-dom';
-import { Layout, HomePage, StorePage, Navigation } from './index';
+import { Layout, HomePage,Navigation } from './index';
 const App = () =>
 {
 	return (
@@ -9,9 +9,6 @@ const App = () =>
 			<Switch>
 				<Route path='/' exact>
 					<HomePage />
-				</Route>
-				<Route path='/store'>
-					<StorePage />
 				</Route>
 			</Switch>
 			</Layout>

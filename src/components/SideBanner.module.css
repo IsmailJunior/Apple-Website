@@ -8,9 +8,18 @@
 	border-right: 10px solid white;
 }
 
+.logo {
+	font-size: xx-large;
+}
+
+.headline {
+	font-weight: 500;
+	font-size: xx-large;
+}
+
 .header {
 		position: absolute;
-		top: 10px;
+		top: 70px;
 }
 
 h1 {
@@ -21,6 +30,7 @@ h1 {
  h3 {
 	font-weight: 400;
 	font-size: 30px;
+	font-size: small;
  }
 
  .link {
