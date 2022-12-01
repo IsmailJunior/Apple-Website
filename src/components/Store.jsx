@@ -1,8 +1,8 @@
-const Store = () =>
+const Store = ({title}) =>
 {
 	return (
 		<div>
-			<h1>Git</h1>
+			<h1>{ title }</h1>
 		</div>
 	)
 };
